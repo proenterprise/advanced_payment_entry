@@ -4,11 +4,12 @@ Automatic allocation of payment entries
 
 #### Installation
 
-```
-cd frappe-bench
-bench get-app advanced_payment_entry https://github.com/proenterprise/advanced_payment_entry.git
-bench --site site-name install-app advanced_payment_entry
-```
+`cd ~/frappe-bench`
+
+`bench get-app advanced_payment_entry https://github.com/proenterprise/advanced_payment_entry.git`
+
+`bench --site site-name install-app advanced_payment_entry`
+
 #### Compatibility
 Build and tested on Frappe & ERPNext: v12.1.8 (version-12). Might work with other versions, please make a PR to include other versions you test.
 
