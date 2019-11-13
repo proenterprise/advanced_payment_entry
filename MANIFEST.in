@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include advanced_payment_entry *.css
+recursive-include advanced_payment_entry *.csv
+recursive-include advanced_payment_entry *.html
+recursive-include advanced_payment_entry *.ico
+recursive-include advanced_payment_entry *.js
+recursive-include advanced_payment_entry *.json
+recursive-include advanced_payment_entry *.md
+recursive-include advanced_payment_entry *.png
+recursive-include advanced_payment_entry *.py
+recursive-include advanced_payment_entry *.svg
+recursive-include advanced_payment_entry *.txt
+recursive-exclude advanced_payment_entry *.pyc
